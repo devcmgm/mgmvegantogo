@@ -61,76 +61,15 @@ max-height: 100%;
         <h1><div id="username"></h1>
         </div>
         <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-        <script>
-          function onSignIn(googleUser) {
-            // Useful data for your client-side scripts:
-            var profile = googleUser.getBasicProfile();
-            
-            document.getElementById("username").innerHTML = "Welcome: " + profile.getName();
-            console.log('Full Name: ' + profile.getName());
-            console.log('Given Name: ' + profile.getGivenName());
-            console.log('Family Name: ' + profile.getFamilyName());
-            console.log("Image URL: " + profile.getImageUrl());
-            console.log("Email: " + profile.getEmail());
-    
-            // The ID token you need to pass to your backend:
-            var id_token = googleUser.getAuthResponse().id_token;
-            console.log("ID Token: " + id_token);
-          }
-        </script>
+      
       </p>
     </div>
 
   <div class="album py-5 bg-light">
     <div class="container">
+<span class="glf-button" data-glf-cuid="13b952a9-fdda-476f-829e-e7c2c31ff01a" data-glf-ruid="668af5cc-61cb-467b-84b3-626913529bbe" > See MENU & Order</span>
+<script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
 
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" alt="Vegan Soup" src="images/soup.jpg">
-            <div class="card-body">
-              <p class="card-text">Vegan Curried Cauliflower Rice Kale Soup</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://mgmvegantogo.typeform.com/to/eQQBP6" target=”_blank” class="btn btn-primary btn-lg active" role="button" aria-pressed="true">SignUp</a>
-                  <a href="https://thefeedfeed.com/cottercrunch/kale-soup-with-curried-cauliflower-rice" target=”_blank”  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Ingredients</a>
-                </div>
-                <small class="text-muted">Free</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-              <img class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" alt="Vegan Sandwich" src="images/sandwich.jpg">  
-           <div class="card-body">
-              <p class="card-text">Vegan Vegetable Reuben Sandwich</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                    <a href="https://mgmvegantogo.typeform.com/to/eQQBP6" target=”_blank” class="btn btn-primary btn-lg active" role="button" aria-pressed="true">SignUp</a>
-                    <a href="https://www.veganosity.com/vegan-vegetable-reuben-sandwich" target=”_blank”  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Ingredients</a>
-                </div>
-                <small class="text-muted">Free</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-              <img class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" alt="Vegan Salad" preserveAspectRatio="xMidYMid slice" src="images/salad.jpg">  
-              <div class="card-body">
-              <p class="card-text">Basil Balsamic Chickpea and Kale Salad </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                    <a href="https://mgmvegantogo.typeform.com/to/eQQBP6" target=”_blank” class="btn btn-primary btn-lg active" role="button" aria-pressed="true">SignUp</a>
-                    <a href="http://www.hummusapien.com/basil-balsamic-chickpea-and-kale-salad" target=”_blank” class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Ingredients</a>
-                </div>
-                <small class="text-muted">Free</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
      </div> 
 
 </main><!-- /.container -->
